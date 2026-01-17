@@ -1,24 +1,23 @@
-### LuckPerms Standalone ###
-standalone/loader/data/
-
-### Gradle & IntelliJ ###
-.gradle/
-/.idea/
+### Build Artifacts ###
+target/
 build/
 out/
-run/
+.gradle/
+
+### IDEs ###
+# IntelliJ
+/.idea/
 *.iml
 .idea_modules/
+run/
 
-
-### Eclipse ###
+# Eclipse
 .metadata
 bin/
 tmp/
 *.tmp
 *.bak
 *.swp
-*~.nib
 local.properties
 .settings/
 .loadpath
@@ -31,16 +30,25 @@ local.properties
 .project
 .classpath
 
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### Linux ###
+# VS Code
+.vscode/
+
+### OS ###
+# Linux
 *~
 .fuse_hidden*
 .directory
 .Trash-*
 .nfs*
 
-
-### macOS ###
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -59,18 +67,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-
-### Windows ###
-# Windows thumbnail cache files
+# Windows
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db

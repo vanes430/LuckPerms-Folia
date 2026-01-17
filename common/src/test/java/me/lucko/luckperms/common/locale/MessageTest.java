@@ -250,6 +250,8 @@ public class MessageTest {
             return ImmutableContextSetImpl.of("stub", "stub");
         } else if (clazz == Component.class) {
             return Component.text("stub");
+        } else if (clazz == net.luckperms.api.node.ChatMetaType.class) {
+            return net.luckperms.api.node.ChatMetaType.PREFIX;
         } else if (clazz == List.class) {
             return ImmutableList.of();
         } else if (clazz == Collection.class) {

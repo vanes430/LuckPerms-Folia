@@ -1,8 +1,10 @@
 group = 'net.luckperms'
 project.version = '5.5'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
 
 jar {
     manifest {
